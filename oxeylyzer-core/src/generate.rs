@@ -285,7 +285,7 @@ impl LayoutGeneration {
         P: AsRef<Path>,
     {
         let mut res: IndexMap<String, FastLayout> = IndexMap::new();
-        let language_dir_path = base_directory.as_ref().join(language);
+        let language_dir_path = base_directory.as_ref().join("all");
 
         if let Ok(paths) = std::fs::read_dir(&language_dir_path) {
             let valid = paths

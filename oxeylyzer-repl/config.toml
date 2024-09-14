@@ -7,7 +7,7 @@ pins = """
 [defaults]
 language = "english"
 trigram_precision = 1000
-keyboard_type = "ansi angle"
+keyboard_type = "Colstag"
 
 [weights]
 heatmap = 1.65
